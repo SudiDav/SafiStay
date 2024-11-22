@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1145EC56-308B-4A3D-A659-2063DE4BA2B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{26DE0977-7878-4452-B4C3-CB67F47882FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafiStay.Domain", "SafiStay.Domain\SafiStay.Domain.csproj", "{B8FD8781-176F-4CB1-8589-3C5F94EC7F0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8FD8781-176F-4CB1-8589-3C5F94EC7F0B} = {1145EC56-308B-4A3D-A659-2063DE4BA2B0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8FD8781-176F-4CB1-8589-3C5F94EC7F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FD8781-176F-4CB1-8589-3C5F94EC7F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FD8781-176F-4CB1-8589-3C5F94EC7F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FD8781-176F-4CB1-8589-3C5F94EC7F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
