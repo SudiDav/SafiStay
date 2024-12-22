@@ -12,6 +12,7 @@ public class PricingService
         var priceForPeriod = new Money(
             apartment.Price.Amount * period.LengthInDays,
             currency);
+        
         decimal percentageUpCharge = 0;
         foreach (var amenity in apartment.Amenities)
         {
